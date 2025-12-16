@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f8fb;
+  margin: 0;
+  padding: 0;
+}
+
+.app-header {
+  padding: 20px;
+}
+
+.panel {
+  background: #e8a6a6;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.search-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.search-row input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.search-row button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card a {
+  color: #1a73e8;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.card small {
+  display: block;
+  color: #666;
+}
+
+.btn {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: #2f78ff;
+  color: #fff;
+}
+
+.loader {
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+}
+
+footer {
+  padding: 20px;
+  text-align: left;
+}
+table {
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+th {
+  background: #f2f2f2;
+}
+
+.btn-danger {
+  background: #e53935;
+  color: white;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>All_Links_NetFier 🦁</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="app-header">
+  <div>
+    <h1>All_Links_NetFier 🦁</h1>
+    <p>Click name to open — Copy gives short link</p>
+  </div>
+
+  <div>
+    <button id="adminBtn" onclick="adminLogin()">Admin sign in</button>
+    <button id="logoutBtn" onclick="adminLogout()" style="display:none">Sign out</button>
+  </div>
+</header>
+
+<section class="panel">
+  <h2>Click & Use This Links</h2>
+
+  <div class="search-row">
+    <input id="searchInput" placeholder="Search by title..." />
+    <button onclick="clearSearch()">Clear</button>
+  </div>
+
+  <div id="loader" class="loader">Loading links…</div>
+
+  <div id="linksList" class="card-list"></div>
+</section>
+
+<section id="adminPanel" class="panel" style="display:none">
+  <h2>Admin Panel</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Clicks</th>
+        <th>Last Clicked</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="adminTable"></tbody>
+  </table>
+</section>
+
+<footer>
+  Made with ❤️ — All_Links_NetFier
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
